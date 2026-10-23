@@ -1,0 +1,61 @@
+:root {
+  --imd-teal: #005357;
+  --imd-charcoal: #1D1D1B;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 14px 4px 18px 4px;
+  border-bottom: 3px solid var(--imd-teal);
+  margin-bottom: 18px;
+}
+.app-header img { height: 46px; }
+.app-header .title {
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--imd-charcoal);
+  line-height: 1.1;
+}
+.app-header .subtitle {
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+.nav-pills .nav-link.active { background-color: var(--imd-teal) !important; }
+.nav-pills .nav-link { color: var(--imd-teal); }
+
+.btn-primary {
+  background-color: var(--imd-teal);
+  border-color: var(--imd-teal);
+}
+.btn-primary:hover { background-color: #00403f; border-color: #00403f; }
+
+.step-card { max-width: 980px; }
+
+.disclaimer-box {
+  background: #f3f7f7;
+  border: 1px solid var(--imd-teal);
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin-bottom: 16px;
+  font-size: 0.9rem;
+}
+
+.locked-note {
+  color: #6c757d;
+  font-style: italic;
+  padding: 30px 6px;
+}
+
+.summary-pill {
+  display: inline-block;
+  background: var(--imd-teal);
+  color: #fff;
+  border-radius: 20px;
+  padding: 3px 12px;
+  margin-right: 8px;
+  font-size: 0.85rem;
+}
+.warn-pill { background: #b8860b; }
